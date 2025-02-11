@@ -1,0 +1,12 @@
+setup-env.sh
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+
+venv/*
+
+.cache
