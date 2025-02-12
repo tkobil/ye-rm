@@ -2,6 +2,10 @@
 
 A CLI tool to remove all songs by a specific artist from a Spotify playlist.
 
+## Inspiration
+
+Artists earn money from Spotify royalties when their songs are played. This tool is a way to remove all of their songs from your playlists to deprive them of that revenue, so you don't need to worry about accidentally supporting an artist you no longer align with when listening on shuffle :).
+
 ### Usage
 
 #### Install dependencies
@@ -20,9 +24,11 @@ A CLI tool to remove all songs by a specific artist from a Spotify playlist.
     export SPOTIFY_USER_ID=<your-spotify-user-id>
 
 #### Run the CLI
+
     python ye_rm/cli.py <artist-name>
 
 Example:
+
      python ye_rm/cli.py "Kanye West"
 
 You will be redirected to a web page that will ask you to approve the application and login.
